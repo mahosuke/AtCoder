@@ -11,26 +11,26 @@ int main() {
         string op;
         cin >> op >> B;   
 
-            if ( op == "+" ){
-                    cout << i << ":" << A + B << endl;
-                    A += B;
-                }
-                else if ( op == "-"){
-                    cout << i << ":" << A - B << endl;
-                    A -= B;
-                } 
-                else if ( op == "*"){
-                    cout << i << ":" << A * B << endl;
-                    A *= B;
-                }
-                else if ( op == "/" && B != 0){
-                    cout << i << ":" << A / B << endl;
-                    A /= B;
-                }
-                else {
-                    cout << "error" << endl;
-                    break;
-                }   
+        if ( op == "+" ){
+                cout << i << ":" << A + B << endl;
+                A += B;
+            }
+            else if ( op == "-"){
+                cout << i << ":" << A - B << endl;
+                A -= B;
+            } 
+            else if ( op == "*"){
+                cout << i << ":" << A * B << endl;
+                A *= B;
+            }
+            else if ( op == "/" && B != 0){
+                cout << i << ":" << A / B << endl;
+                A /= B;
+            }
+            else {
+                cout << "error" << endl;
+                break;
+            }   
         
     }
 }
